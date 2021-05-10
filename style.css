@@ -6,6 +6,10 @@
     padding:0;
   }
 
+body {
+    background-color: white;
+}
+
 .content {
     display: inline-block;
     background-color: lightslategray;
@@ -21,9 +25,10 @@
         width: 15%;
         min-width:min-content;
         height: 100vh;
+        opacity: .8;
     }
 
-        .navbar a {
+        nav a {
             background-color: lavender;
             color: rgb(116, 108, 108);
             opacity: .6;
@@ -36,7 +41,7 @@
             margin-top: 5%;
         } /* Cannot set height or width for <a> tags */
 
-            .navbar a:hover {
+            nav a:hover, nav a.active {
                 opacity: 1;
             } /* Cannot set height or width for <a> tags */
 

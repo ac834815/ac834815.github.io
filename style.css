@@ -39,7 +39,16 @@ body {
         #logo {
             width: 80%;
             border-radius: 50%;
-            margin-top: 5%;
+            margin-top: 10%;
+            margin-bottom: 10%;
+        }
+
+        .divider {
+            background-color: lavender;
+            opacity: .6;
+            width: 90%;
+            height: 1px;
+            margin: 5% 5% 0 5%;
         }
 
         nav a {
